@@ -7,7 +7,7 @@ interface SectionProps
 
 export const Section = ({ children, className, ...props }: SectionProps) => {
   return (
-    <section className={twMerge('py-6', className)} {...props}>
+    <section className={twMerge('py-8', className)} {...props}>
       {children}
     </section>
   );

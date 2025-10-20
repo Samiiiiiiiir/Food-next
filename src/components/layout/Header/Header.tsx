@@ -14,23 +14,23 @@ export const Header = () => {
             <Link href="/menu">Menu</Link>
           </li>
           <li>
-            <Link href="/menu">About</Link>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href="/menu">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
       <div className="ml-auto flex gap-4 items-center">
         <Link
-          className="bg-primary text-white rounded-full py-2 px-8 hover:bg-primary/85"
+          className="bg-primary text-white rounded-full py-2 px-8 transition-all duration-200 hover:bg-primary/80"
           href="/login"
         >
           Login
         </Link>
         <Link
-          className="bg-primary text-white rounded-full py-2 px-8 hover:bg-primary/85"
-          href="/login"
+          className="bg-primary text-white rounded-full py-2 px-8 transition-all duration-200 hover:bg-primary/80"
+          href="/register"
         >
           Register
         </Link>

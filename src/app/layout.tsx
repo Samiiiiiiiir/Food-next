@@ -5,7 +5,7 @@ import { Footer, Header } from '@/components';
 
 const roboto = Roboto({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '700'],
+  weight: ['300', '400', '500', '600', '700'],
 });
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.className} antialiased`}>
-        <div className="max-w-[1432px] w-full mx-auto px-4">
+        <div className="max-w-[1432px] w-full mx-auto px-4 grid grid-rows-[auto_1fr_auto] min-h-screen">
           <Header />
           <main>{children}</main>
           <Footer />

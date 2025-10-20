@@ -23,10 +23,10 @@ export const Button = ({
   return (
     <button
       className={twMerge(
-        'rounded-full cursor-pointer text-lg py-3 border-2 font-medium text-nowrap px-8 transition-all duration-200',
+        'rounded-full cursor-pointer text-lg py-3 border-1 font-medium text-nowrap px-8 transition-all duration-200',
         appearance === 'primary'
-          ? 'bg-primary text-white  border-primary hover:bg-transparent hover:text-primary'
-          : 'text-gray-500 border-gray-500 bg-white hover:bg-gray-500 hover:text-white',
+          ? 'bg-primary text-white border-primary hover:bg-primary/80'
+          : 'text-gray-400 border-gray-400 bg-white hover:bg-gray-400 hover:text-white',
         className
       )}
       {...props}

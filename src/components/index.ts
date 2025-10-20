@@ -1,6 +1,7 @@
 export * from './ui/SectionTop/SectionTop';
 export * from './ui/Button/Button';
 export * from './ui/Section/Section';
+export * from './ui/Field/Field';
 
 export * from './widget/MenuItem/MenuItem';
 
